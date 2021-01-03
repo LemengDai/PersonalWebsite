@@ -1,0 +1,203 @@
+/* navigation bar */
+nav {
+  background: black;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+nav a{
+  margin: 5px;
+  color: white;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+
+a:hover{
+  color: black;
+  background: gainsboro;
+  transition: .5s;
+  text-decoration: none;
+}
+
+/* title font */
+#cursor {
+  color: rgb(0, 255, 0);
+}
+
+.title1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: Consolas;
+  color: white;
+}
+
+.title2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Tahoma;
+  margin-bottom: 25px;
+  color: cyan;
+  background-color: black;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+.title3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title4 {
+  font-weight: bold;
+}
+
+body {
+  font-size: 16px;
+  font-family: Georgia;
+  color: black;
+}
+
+/* display */
+#page3 > section {
+  margin-top: 25px;
+}
+
+#page4 > section {
+  margin-top: 50px;
+}
+
+article {
+  margin-right: 50px;
+  flex: 40%;
+}
+
+figure {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#page4 figure {
+  margin-top: 0;
+}
+
+.flexRow{
+  display: flex;
+  justify-content: space-around;
+}
+
+.toright {
+  height: 50%;
+  margin: 0;
+}
+
+.toright > img {
+  height: 100%;
+  float: right;
+}
+
+body, html, #page6, #mainContent{
+  height: 100%;
+  width: 100%;
+}
+
+#page1, #mainContent, #page2 {
+  position: relative;
+  height: 100%;
+  background-color: black;
+}
+
+div {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 50px;
+}
+
+.section2 {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.section1 {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+#page5 img {
+  height: 300px;
+}
+
+#page2 {
+  padding-top: 0;
+  margin-bottom: 100px;
+  background-color: rgb(235, 235, 235);
+}
+
+#page5 {
+  background-color: rgb(235, 235, 235);
+  padding-bottom: 100px; 
+}
+
+#blankSpace1 {
+  margin: 0;
+  height: 50px;
+  background-color: rgb(235, 235, 235);
+}
+
+#blankSpace {
+  margin: 0;
+  height: 200px;
+  background-color: black;
+}
+
+#page4 {
+  margin-bottom: 100px;
+}
+
+#page6 { 
+  display: flex;
+  padding: 0;
+  background-color: black; 
+}
+
+#button {
+  height: 55px;
+  width: 55px;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+  background-color: lime;
+  border-radius: 5px;
+}
+
+#sideBar { 
+  display: none;
+  width: 500px;
+  background-color: white;
+  padding: 30px;
+  padding-top: 50px;
+}
+
+.quote {
+  margin-left: 30px;
+  border-style: double;
+  border-color: cyan;
+  border-width: 10px;
+  padding: 10px;
+  font-style: italic;
+}
